@@ -1,1 +1,90 @@
 
+Module - 2.5: Practice Problems
+
+
+How many edges does a tree with n nodes have?
+How many edges does a complete graph with n nodes have?
+
+Convert the following Adjacency Matrix into an Adjacency List and draw the graph. 
+(no need to code)
+
+1 0 0 1
+1 0 1 0
+0 1 0 1
+0 0 1 1
+
+
+Convert the following Adjacency List into an Adjacency Matrix and draw the graph.
+(no need to code)
+
+	A -> B, C
+B -> B, A, D
+C -> D, A
+D -> A
+
+
+Convert the following edge list of an undirected graph to its respective Adjacency List representation.
+
+[
+    [A, B, 1]
+  [B, C, 3]
+  [C, A, 2]
+  [E, F, 9]
+  [C, D, 1]
+  [E, F, 7]
+]
+
+
+Mention the properties of this graph
+
+
+Is the graph weighted or unweighted?
+Does the graph have cycles?
+If the graph has cycles, remove some edges to make it acyclic (i.e. with no cycle)
+Has the graph become a tree? Why or why not?
+If not, then add edges to make it a tree.
+
+
+
+
+
+
+
+1)
+How many edges does a tree with n nodes have?
+
+A tree with n vertices , edges= n − 1
+
+Example:
+if n=1000
+ e=1000-1
+   =999 (edges)
+
+
+2)
+edges of a complete graph :
+
+n=1, e=0
+n=2, e=1
+n=3, e=3
+n=4, e=6
+n=5, e=10
+n=6, e=15
+edges:
+  0+1+3+6+10+15+....
+=n*(n-1)/2
+
+3) done!
+4) done!
+
+5)
+
+weighted
+Yes
+Removed A-C edge
+Not tree, because 
+         1.tree have no cycle,
+         2.only one unique path.
+
+
+
